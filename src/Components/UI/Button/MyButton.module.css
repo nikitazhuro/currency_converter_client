@@ -1,0 +1,20 @@
+.MyButton {
+  width: 90%;
+  padding: 15px 0;
+  cursor: pointer;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  margin-top: 40px;
+  transition: all 0.4s ease;
+  background: pink;
+}
+.MyButton:hover {
+  background: rgb(255, 149, 166);
+}
+
+@media screen and (max-width: 576px) {
+  .MyButton {
+    width: 100%;
+  }
+}

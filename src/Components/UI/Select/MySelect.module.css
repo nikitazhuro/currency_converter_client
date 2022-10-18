@@ -1,0 +1,13 @@
+.MySelect {
+  width: 90%;
+  height: 30px;
+  max-width: 400px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+@media screen and (max-width: 576px) {
+  .MySelect {
+    width: 100%;
+  }
+}
