@@ -1,0 +1,83 @@
+.Exchanger {
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.MainBlock {
+  margin-top: 30px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+.LeftBlock,
+.RightBlock {
+  max-width: 400px;
+  width: 40%;
+}
+.SelectBlock {
+  display: grid;
+}
+.SelectBlock span {
+  opacity: 0.5;
+}
+.InfoBlock {
+  max-width: 400px;
+  width: 40%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.InfoBlock_CurrentRate,
+.InfoBlock_TodayChange {
+  display: flex;
+  flex-direction: column;
+}
+.btnSwap {
+  max-width: 400px;
+  width: 40%;
+}
+.SwapAndState {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Diagram {
+  margin-top: 20px;
+  max-width: 800px;
+  width: 80%;
+}
+@media screen and (max-width: 576px) {
+  .MainBlock {
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .LeftBlock,
+  .RightBlock {
+    width: 100%;
+  }
+  .LeftBlock {
+    margin-bottom: 30px;
+  }
+  .Exchanger {
+    margin: 15px;
+  }
+  .SwapAndState {
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .btnSwap {
+    width: 100%;
+  }
+  .InfoBlock {
+    width: 100%;
+  }
+  .Diagram {
+    width: 100%;
+  }
+}
